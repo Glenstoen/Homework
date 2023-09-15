@@ -31,4 +31,3 @@ def soda_can():
 
 
 soda_can()
-# hei
