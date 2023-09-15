@@ -27,7 +27,8 @@ def soda_can():
             print("Sorry, this is out of stock\n")
             continue
         current_stock[order][1] -= 1
-        print("here is your", current_stock[order][0])
+        print("here is you", current_stock[order][0])
 
 
 soda_can()
+# hei
