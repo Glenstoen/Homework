@@ -4,11 +4,11 @@ from search import binarysearch
 
 
 def main():
-    # number = random.randint(1, 100)
     array = list(range(1, 101))
-    guess = binarysearch(
-        array=array,
-    )
+    low = 1
+    high = len(array) - 1
+
+    guess = binarysearch(array=array, low=low, high=high)
     num = guess_game(guess)
     if num == 0:
         print("correct number was", guess)
