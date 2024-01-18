@@ -4,7 +4,7 @@ import random
 
 class student(Person):
     def __init__(self, name, age):
-        Person.__init__(self, name, age)
+        super.__init__(self, name, age)
         self.grades = []
         self.avg_grades = 0
 
